@@ -16,7 +16,7 @@ no cloud, your documents never leave your computer.**
 Prereqs: [uv](https://docs.astral.sh/uv/) and [Ollama](https://ollama.com) installed.
 
 ```bash
-git clone https://github.com/sebahstian/pdf-chat-app && cd pdf-chat-app
+git clone https://github.com/YOUR_USERNAME/local-pdf-chat-app && cd local-pdf-chat-app
 make setup          # install Python deps
 make pull-models    # download llama3.2:3b + nomic-embed-text (~2.3 GB, once)
 make run            # opens http://localhost:8501
@@ -96,9 +96,3 @@ make test
 
 The ingestion pipeline (parsing, chunking, metadata/citation plumbing) is covered by
 pure unit tests — the fixture PDF is generated in-memory, and no model has to be running.
-
-## Future work
-
-- Multi-PDF sessions with per-document filtering
-- Persistent index (Chroma) so re-uploading a known document is instant
-- Evaluation harness (RAGAS) for retrieval quality
