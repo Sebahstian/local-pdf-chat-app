@@ -5,7 +5,7 @@ answer cites the pages it came from. Everything runs on your machine: local LLM
 (**Ollama + Llama 3.2**), local embeddings, in-memory vector search. **No API keys,
 no cloud, your documents never leave your computer.**
 
-![Demo](assets/demo.gif)
+![Screenshot](assets/screenshot.png)
 
 **Stack:** Python · LangChain (1.x, LCEL) · Streamlit · Ollama (`llama3.2:3b` + `nomic-embed-text`)
 
